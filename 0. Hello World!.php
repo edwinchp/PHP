@@ -9,7 +9,7 @@ echo "<hr>";
 $myName = "Edwin Chi Pineiro";
 echo str_replace("Edwin", "Edd", $myName); //Outputs Edd Chi Pineiro
 echo "<br/>";
-echo str_pad($myName,20,"."); //Llena hasta N caracteres con "..."
+echo str_pad($myName,20,"."); //Llena hasta N caracteres con "."
 echo "<br/>";
 echo str_repeat($myName . " / ",5); //Repite la variable N veces.
 echo "<br/>";
